@@ -1,5 +1,5 @@
-# go-toolset
-FROM rhel8/go-toolset
+# golang
+FROM golang:alpine3.11
 
 RUN mkdir /app
 COPY main.go /app
